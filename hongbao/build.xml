@@ -339,6 +339,7 @@
                 <file name="src/award.js"/>
                 <file name="res/nianli/jquery-1.12.0.min.js"/>
                 <file name="src/utils/dom-to-image.js"/>
+                <file name="src/utils/html2canvas.min.js"/>
                 <file name="main.js"/>
 
             </sources>
