@@ -338,6 +338,7 @@
                 <file name="src/loading_scene_res.js"/>
                 <file name="src/award.js"/>
                 <file name="src/share.js"/>
+                <file name="src/key_words.js"/>
                 <file name="res/nianli/jquery-1.12.0.min.js"/>
                 <file name="main.js"/>
 
