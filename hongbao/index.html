@@ -2,7 +2,7 @@
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <title>如果神仙也过年，他们应该是这样的！</title>
-    <link rel="icon" type="image/GIF" href="http://hfive.zjart.net.cn/publish/html5/res/nianli/ddd.jpg">
+    <link rel="icon" type="image/GIF" href="http://hfive.zjart.net.cn/res/nianli/ddd.jpg">
     <meta name="viewport" content="maximum-scale=3, minimum-scale=1, width=device-width, height=device-height, user-scalable=no, initial-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="robots" content="古北水镇,八仙游古镇">
@@ -80,8 +80,6 @@
             timestamp = dataJson.data.timestamp;
             sig = dataJson.data.signature;
             nonceStr = dataJson.data.nonceStr;
-            console.log(dataJson.data.timestamp);
-            console.log("success: " + JSON.stringify(response));
 
             wx.config({
                 debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
@@ -135,7 +133,7 @@
     wx.ready(function() {
         var title = '如果神仙也过年，他们应该是这样的···';
         var desc = '八仙过年齐下凡，齐聚庙会逛吃欢，春节乐事一二三，好戏一出等你探。';
-        var imgUrl = 'http://hfive.zjart.net.cn/publish/html5/res/nianli/ddd.jpg';//hongbao_icon.jpg
+        var imgUrl = 'http://hfive.zjart.net.cn/res/nianli/ddd.jpg';//hongbao_icon.jpg
 //        var imgUrl = 'res/nianli/ddd.jpg';//hongbao_icon.jpg
         var shareUrl = window.location.href;
 //        if (shareUrl.indexOf("?") != -1){
